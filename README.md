@@ -44,3 +44,21 @@ Modifications from the repo:
 Step to generate smpv files:
 1) cd cmake-build-debug/utils/
 2) run "./spmv_gen_matrices --preccision <SINGLE or DOUBLE> --problem-size <size> --path-to-library <path to input directory from step 5 above>"
+
+To run Benchmarks:
+1) In the run_benchmarks.sh change to the benchmark .so file in "/cmake-build-debug/benchmarks/libgenerated_<benchmark>.so"
+
+OUTPUT LOG(all units in ms):
+CPU - OpenCL kernel compilation: compilation time
+CPU - Clean up:                  
+CPU - Kernel:                    CPU kernel execution time
+CPU - Waiting:                   
+CPU - Time in clWait:            
+CPU - Setup in ROI:              
+GPU - OpenCL kernel compilation: 
+GPU - Clean up:                  
+GPU - Kernel:                    
+GPU - Waiting:                   
+GPU - Time in clWait:            
+GPU - Setup in ROI:              
+Daemon startup:                  
