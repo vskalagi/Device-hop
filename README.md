@@ -49,6 +49,7 @@ To run Benchmarks:
 1) In the run_benchmarks.sh change to the benchmark .so file in "/cmake-build-debug/benchmarks/libgenerated_<benchmark>.so"
 
 OUTPUT LOG(all units in ms):
+
 CPU - OpenCL kernel compilation: compilation time
 CPU - Clean up:                  
 CPU - Kernel:                    CPU kernel execution time
