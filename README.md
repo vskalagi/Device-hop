@@ -34,7 +34,7 @@ WARNING: run_daemon.sh kills all processes that start with "plasticd" and delete
 - Intel's C/C++ compiler (ICC).- install Intel® oneAPI HPC Toolkit
 
 Modifications from the repo:
-1) In the run_benchmarks.sh=>--path-to-library=/home/paul/phd/my_papers/plasticity/library to --path-to-library=<path to local directory>
+1) In the run_benchmarks.sh=>--path-to-library=/home/paul/phd/my_papers/plasticity/library to --path-to-library= <path to local directory>
 2) In device_hopper/core.h => "/library/programming_model/benchmarks/opencl_files/" to "/benchmarks/opencl_files/"
 3) In source_to_source_translator/template.h => "/programming_model/benchmarks/opencl_files/" to "/benchmarks/opencl_files/"
 4) In benchmarks/shoc_ifft.cpp => "/library/" + "/plasticity/opencl_files/shoc_fft.cl" to "/benchmarks/shoc_src/shoc_fft.cl"
